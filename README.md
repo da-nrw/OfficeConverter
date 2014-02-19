@@ -33,3 +33,7 @@ _DOCX                 | http://Server/Handler.ashx
 
 
 Please add the conversion policies for Office documents on your needs. 
+
+## Debugging 
+
+The Logfile generates Logfiles using Log4NET 
