@@ -11,13 +11,19 @@ Written in .NET ASP, the software runs on IIS 7.0 using .NET Framework 3.5. (Win
 Supported and tested formats so far are: 
 Word DOCX, DOC
 
-Output 
-actually PDF 1.5 (the output is converted to PDF/A in DNSCore and validated with pdfbox)
+Output: 
+Actually PDF 1.5 (the output is converted to PDF/A in DNSCore and validated with pdfbox)
 
 ## Setup on IIS 
 
+You have to setup your Office installation for word automation, esp. the COM rights like it is explained in these forums:
+* http://social.msdn.microsoft.com/Forums/en-US/0f5448a7-72ed-4f16-8b87-922b71892e07/word-2007-documentsopen-returns-null-in-aspnet
+* http://www.codeproject.com/Articles/19993/MS-Word-Automation-from-ASP-NET-and-Publishing
 
 
 ## Integration in DNSCore 
 
-
+The equivalent converion routine has to be set up:
+<pre>ID | pdf           | de.uzk.hki.da.convert.DocxConversionStrategy         | LZA
+_DOCX                 | http://Server/Handler.ashx 
+</pre>
