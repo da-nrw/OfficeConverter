@@ -20,10 +20,13 @@ You have to setup your Office installation for word automation, esp. the COM rig
 * http://social.msdn.microsoft.com/Forums/en-US/0f5448a7-72ed-4f16-8b87-922b71892e07/word-2007-documentsopen-returns-null-in-aspnet
 * http://www.codeproject.com/Articles/19993/MS-Word-Automation-from-ASP-NET-and-Publishing
 
+## Conversion check / "Smoke test"
+
+Tests on conversion could be carried out via URL: http://Server/Converter.aspx 
 
 ## Integration in DNSCore 
 
-The equivalent converion routine has to be set up:
+The equivalent conversion routine has to be set up like this:
 <pre>ID | pdf           | de.uzk.hki.da.convert.DocxConversionStrategy         | LZA
 _DOCX                 | http://Server/Handler.ashx 
 </pre>
