@@ -30,3 +30,6 @@ The equivalent conversion routine has to be set up like this:
 <pre>ID | pdf           | de.uzk.hki.da.convert.DocxConversionStrategy         | LZA
 _DOCX                 | http://Server/Handler.ashx 
 </pre>
+
+
+Please add the conversion policies for Office documents on your needs. 
