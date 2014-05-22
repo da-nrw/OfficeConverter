@@ -33,7 +33,7 @@ You have to setup MS Office installation running on host for word automation. Cr
 
 ## Conversion check / "Smoke test"
 
-Tests on conversion could be carried out via URL: http://Server/Converter.aspx 
+Tests on working conversion operations could be carried out via URL: http://Server/Converter.aspx 
 
 ## Integration in DNSCore 
 
