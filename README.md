@@ -31,9 +31,10 @@ For testing & developing OfficeCoverter normally no configuration is needed at a
 * http://social.msdn.microsoft.com/Forums/en-US/0f5448a7-72ed-4f16-8b87-922b71892e07/word-2007-documentsopen-returns-null-in-aspnet
 * http://www.codeproject.com/Articles/19993/MS-Word-Automation-from-ASP-NET-and-Publishing
 
-## Conversion check / "Smoke test"
+## Conversion check / "Smoke test" / Standalone
 
-Tests on working conversion operations could be carried out via URL: http://Server/Converter.aspx 
+Tests on working conversion operations could be carried out via URL: http://Server/Converter.aspx.
+This will even work without having DNSCore running at all.
 
 ## Integration in DNSCore 
 
