@@ -8,6 +8,7 @@ OfficeConverter
 3. IIS 7
 4. Windows 2008 R 2
 5. Visual Studio .NET 2012
+6. Log4Net
 
 ## Introduction
 
