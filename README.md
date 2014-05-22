@@ -1,6 +1,16 @@
 OfficeConverter
 ===============
 
+## Prerequisites
+
+1. .NET FW 3.5.1
+2. Office 15.00.00
+3. IIS 7
+4. Windows 2008 R 2
+5. Visual Studio .NET 2012
+
+## Introduction
+
 Provides Webservice for automatic conversion of Office documents into PDF. 
 
 Feature uses propietary software packages for conversion being able to 
