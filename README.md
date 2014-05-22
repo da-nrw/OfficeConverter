@@ -27,7 +27,7 @@ Actually PDF 1.5 based on standard office capabilities (the output recieved is c
 
 ## Setup on IIS 
 
-For testing & developing OfficeCoverter normally no configuration is needed at all. For having the code running on external server, you have to setup MS Office installation running on host for word automation. Not easy is to setup COM rights correctly. 
+For testing & developing OfficeCoverter normally no configuration is needed at all (the build-in IIS is quite permissive). For having the code running on external server, you have to setup MS Office installation running on host for word automation. Not easy is to setup COM rights correctly. 
 * http://social.msdn.microsoft.com/Forums/en-US/0f5448a7-72ed-4f16-8b87-922b71892e07/word-2007-documentsopen-returns-null-in-aspnet
 * http://www.codeproject.com/Articles/19993/MS-Word-Automation-from-ASP-NET-and-Publishing
 
