@@ -72,8 +72,6 @@ public class WordToPdf
         FileInfo fi = new FileInfo(file);
 
 
-        //
-
         Object filename = file;
         log.Debug("about to open document now!");
         doc = word.Documents.Open(ref filename, ref oMissing,
